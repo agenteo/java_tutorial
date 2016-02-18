@@ -1,0 +1,332 @@
+18-Feb-2016 09:20:18.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M3
+18-Feb-2016 09:20:18.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 1 2016 20:52:49 UTC
+18-Feb-2016 09:20:18.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+18-Feb-2016 09:20:18.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+18-Feb-2016 09:20:18.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.1
+18-Feb-2016 09:20:18.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+18-Feb-2016 09:20:18.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre
+18-Feb-2016 09:20:18.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_60-b27
+18-Feb-2016 09:20:18.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Feb-2016 09:20:18.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3
+18-Feb-2016 09:20:18.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3
+18-Feb-2016 09:20:18.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/conf/logging.properties
+18-Feb-2016 09:20:18.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Feb-2016 09:20:18.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3
+18-Feb-2016 09:20:18.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3
+18-Feb-2016 09:20:18.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/temp
+18-Feb-2016 09:20:18.098 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/agenteo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+18-Feb-2016 09:20:18.435 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Feb-2016 09:20:18.487 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Feb-2016 09:20:18.491 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Feb-2016 09:20:18.492 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Feb-2016 09:20:18.493 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1277 ms
+18-Feb-2016 09:20:18.532 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+18-Feb-2016 09:20:18.532 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M3
+18-Feb-2016 09:20:18.546 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/docs
+18-Feb-2016 09:20:18.985 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/docs has finished in 439 ms
+18-Feb-2016 09:20:18.986 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/examples
+18-Feb-2016 09:20:19.604 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/examples has finished in 618 ms
+18-Feb-2016 09:20:19.604 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/host-manager
+18-Feb-2016 09:20:19.648 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/host-manager has finished in 44 ms
+18-Feb-2016 09:20:19.648 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/manager
+18-Feb-2016 09:20:19.693 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/manager has finished in 44 ms
+18-Feb-2016 09:20:19.693 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/ROOT
+18-Feb-2016 09:20:19.714 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/ROOT has finished in 21 ms
+18-Feb-2016 09:20:19.719 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+18-Feb-2016 09:20:19.728 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+18-Feb-2016 09:20:19.730 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1237 ms
+18-Feb-2016 09:20:39.888 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Feb-2016 09:20:39.889 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Feb-2016 09:20:39.949 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+18-Feb-2016 09:20:40.004 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+18-Feb-2016 09:20:40.045 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Feb-2016 09:20:40.048 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+18-Feb-2016 09:20:40.050 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Feb-2016 09:20:40.051 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+18-Feb-2016 09:24:14.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M3
+18-Feb-2016 09:24:14.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 1 2016 20:52:49 UTC
+18-Feb-2016 09:24:14.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+18-Feb-2016 09:24:14.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+18-Feb-2016 09:24:14.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.1
+18-Feb-2016 09:24:14.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+18-Feb-2016 09:24:14.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre
+18-Feb-2016 09:24:14.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_60-b27
+18-Feb-2016 09:24:14.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Feb-2016 09:24:14.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3
+18-Feb-2016 09:24:14.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3
+18-Feb-2016 09:24:14.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/conf/logging.properties
+18-Feb-2016 09:24:14.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Feb-2016 09:24:14.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3
+18-Feb-2016 09:24:14.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3
+18-Feb-2016 09:24:14.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/temp
+18-Feb-2016 09:24:14.400 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/agenteo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+18-Feb-2016 09:24:14.685 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Feb-2016 09:24:14.749 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Feb-2016 09:24:14.753 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Feb-2016 09:24:14.755 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Feb-2016 09:24:14.755 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1140 ms
+18-Feb-2016 09:24:14.805 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+18-Feb-2016 09:24:14.805 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M3
+18-Feb-2016 09:24:14.820 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/docs
+18-Feb-2016 09:24:15.255 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/docs has finished in 434 ms
+18-Feb-2016 09:24:15.255 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/examples
+18-Feb-2016 09:24:15.687 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/examples has finished in 432 ms
+18-Feb-2016 09:24:15.687 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/host-manager
+18-Feb-2016 09:24:15.758 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/host-manager has finished in 70 ms
+18-Feb-2016 09:24:15.758 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/manager
+18-Feb-2016 09:24:15.798 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/manager has finished in 39 ms
+18-Feb-2016 09:24:15.798 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/ROOT
+18-Feb-2016 09:24:15.819 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/ROOT has finished in 21 ms
+18-Feb-2016 09:24:15.824 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+18-Feb-2016 09:24:15.834 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+18-Feb-2016 09:24:15.835 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1079 ms
+18-Feb-2016 09:27:05.920 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+18-Feb-2016 09:27:05.928 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+18-Feb-2016 09:27:05.978 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+18-Feb-2016 09:30:15.203 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Feb-2016 09:30:15.208 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Feb-2016 09:30:15.273 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+18-Feb-2016 09:30:15.326 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+18-Feb-2016 09:30:15.371 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Feb-2016 09:30:15.380 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+18-Feb-2016 09:30:15.382 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Feb-2016 09:30:15.383 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+18-Feb-2016 09:30:21.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M3
+18-Feb-2016 09:30:21.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 1 2016 20:52:49 UTC
+18-Feb-2016 09:30:21.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+18-Feb-2016 09:30:21.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+18-Feb-2016 09:30:21.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.1
+18-Feb-2016 09:30:21.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+18-Feb-2016 09:30:21.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre
+18-Feb-2016 09:30:21.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_60-b27
+18-Feb-2016 09:30:21.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Feb-2016 09:30:21.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3
+18-Feb-2016 09:30:21.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3
+18-Feb-2016 09:30:21.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/conf/logging.properties
+18-Feb-2016 09:30:21.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Feb-2016 09:30:21.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3
+18-Feb-2016 09:30:21.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3
+18-Feb-2016 09:30:21.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/temp
+18-Feb-2016 09:30:21.270 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/agenteo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+18-Feb-2016 09:30:21.455 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Feb-2016 09:30:21.491 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Feb-2016 09:30:21.494 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Feb-2016 09:30:21.498 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Feb-2016 09:30:21.499 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 856 ms
+18-Feb-2016 09:30:21.539 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+18-Feb-2016 09:30:21.539 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M3
+18-Feb-2016 09:30:21.548 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/docs
+18-Feb-2016 09:30:22.228 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/docs has finished in 679 ms
+18-Feb-2016 09:30:22.229 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/examples
+18-Feb-2016 09:30:22.710 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/examples has finished in 482 ms
+18-Feb-2016 09:30:22.711 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/host-manager
+18-Feb-2016 09:30:22.773 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/host-manager has finished in 62 ms
+18-Feb-2016 09:30:22.773 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/manager
+18-Feb-2016 09:30:22.803 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/manager has finished in 30 ms
+18-Feb-2016 09:30:22.803 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/ROOT
+18-Feb-2016 09:30:22.846 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/agenteo/code/java/chapter2/example1/apache-tomcat-9.0.0.M3/webapps/ROOT has finished in 43 ms
+18-Feb-2016 09:30:22.850 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+18-Feb-2016 09:30:22.857 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+18-Feb-2016 09:30:22.858 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1358 ms
+18-Feb-2016 09:33:23.453 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+18-Feb-2016 09:33:23.461 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [ROOT]
+ java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1612)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1547)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1499)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:448)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:229)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5461)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:229)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:823)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1399)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1325)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1582)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1139)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1375)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1379)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+	at java.lang.Thread.run(Thread.java:745)
+
+18-Feb-2016 09:33:23.976 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/examples]
+18-Feb-2016 09:33:23.980 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [examples]
+ java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1612)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1547)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1499)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:448)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:229)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5461)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:229)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:823)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1399)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1325)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1582)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1139)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1375)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1379)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+	at java.lang.Thread.run(Thread.java:745)
+
+18-Feb-2016 09:33:24.488 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/host-manager]
+18-Feb-2016 09:33:24.491 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [host-manager]
+ java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1612)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1547)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1499)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:448)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:229)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5461)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:229)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:823)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1399)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1325)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1582)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1139)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1375)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1379)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+	at java.lang.Thread.run(Thread.java:745)
+
+18-Feb-2016 09:33:24.993 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+18-Feb-2016 09:33:24.996 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [manager]
+ java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1612)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1547)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1499)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:448)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:229)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5461)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:229)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:823)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1399)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1325)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1582)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1139)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1375)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1379)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+	at java.lang.Thread.run(Thread.java:745)
+
+18-Feb-2016 09:33:25.503 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/docs]
+18-Feb-2016 09:33:25.508 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [docs]
+ java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1612)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1547)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1499)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:448)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:229)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5461)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:229)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:823)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1399)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1325)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1582)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1139)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1375)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1379)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+	at java.lang.Thread.run(Thread.java:745)
+
+18-Feb-2016 09:44:25.653 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M3
+18-Feb-2016 09:44:25.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 1 2016 20:52:49 UTC
+18-Feb-2016 09:44:25.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+18-Feb-2016 09:44:25.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+18-Feb-2016 09:44:25.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.1
+18-Feb-2016 09:44:25.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+18-Feb-2016 09:44:25.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre
+18-Feb-2016 09:44:25.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_60-b27
+18-Feb-2016 09:44:25.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Feb-2016 09:44:25.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3
+18-Feb-2016 09:44:25.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3
+18-Feb-2016 09:44:25.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3/conf/logging.properties
+18-Feb-2016 09:44:25.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Feb-2016 09:44:25.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3
+18-Feb-2016 09:44:25.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3
+18-Feb-2016 09:44:25.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3/temp
+18-Feb-2016 09:44:25.661 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/agenteo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+18-Feb-2016 09:44:25.863 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Feb-2016 09:44:25.899 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Feb-2016 09:44:25.903 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Feb-2016 09:44:25.905 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Feb-2016 09:44:25.906 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 908 ms
+18-Feb-2016 09:44:25.949 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+18-Feb-2016 09:44:25.950 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M3
+18-Feb-2016 09:44:25.960 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3/webapps/docs
+18-Feb-2016 09:44:26.662 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3/webapps/docs has finished in 701 ms
+18-Feb-2016 09:44:26.663 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3/webapps/examples
+18-Feb-2016 09:44:27.391 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3/webapps/examples has finished in 728 ms
+18-Feb-2016 09:44:27.391 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3/webapps/host-manager
+18-Feb-2016 09:44:27.536 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3/webapps/host-manager has finished in 145 ms
+18-Feb-2016 09:44:27.537 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3/webapps/manager
+18-Feb-2016 09:44:27.570 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3/webapps/manager has finished in 33 ms
+18-Feb-2016 09:44:27.571 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3/webapps/ROOT
+18-Feb-2016 09:44:27.606 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Feb-2016 09:44:27.609 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3/webapps/ROOT has finished in 39 ms
+18-Feb-2016 09:44:27.613 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+18-Feb-2016 09:44:27.622 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+18-Feb-2016 09:44:27.623 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1716 ms
+18-Feb-2016 09:45:50.833 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Feb-2016 09:45:50.834 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Feb-2016 09:45:50.895 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+18-Feb-2016 09:45:50.949 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+18-Feb-2016 09:45:50.982 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Feb-2016 09:45:50.986 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+18-Feb-2016 09:45:50.987 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Feb-2016 09:45:50.988 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+18-Feb-2016 09:45:54.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M3
+18-Feb-2016 09:45:54.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 1 2016 20:52:49 UTC
+18-Feb-2016 09:45:54.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+18-Feb-2016 09:45:54.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+18-Feb-2016 09:45:54.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.1
+18-Feb-2016 09:45:54.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+18-Feb-2016 09:45:54.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre
+18-Feb-2016 09:45:54.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_60-b27
+18-Feb-2016 09:45:54.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Feb-2016 09:45:54.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3
+18-Feb-2016 09:45:54.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3
+18-Feb-2016 09:45:54.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3/conf/logging.properties
+18-Feb-2016 09:45:54.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Feb-2016 09:45:54.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3
+18-Feb-2016 09:45:54.795 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3
+18-Feb-2016 09:45:54.795 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3/temp
+18-Feb-2016 09:45:54.795 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/agenteo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+18-Feb-2016 09:45:55.109 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Feb-2016 09:45:55.148 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Feb-2016 09:45:55.151 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Feb-2016 09:45:55.153 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Feb-2016 09:45:55.154 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 971 ms
+18-Feb-2016 09:45:55.219 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+18-Feb-2016 09:45:55.220 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M3
+18-Feb-2016 09:45:55.230 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3/webapps/docs
+18-Feb-2016 09:45:55.542 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3/webapps/docs has finished in 312 ms
+18-Feb-2016 09:45:55.542 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3/webapps/examples
+18-Feb-2016 09:45:55.944 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3/webapps/examples has finished in 402 ms
+18-Feb-2016 09:45:55.945 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3/webapps/host-manager
+18-Feb-2016 09:45:55.989 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3/webapps/host-manager has finished in 45 ms
+18-Feb-2016 09:45:55.990 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3/webapps/manager
+18-Feb-2016 09:45:56.020 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3/webapps/manager has finished in 29 ms
+18-Feb-2016 09:45:56.020 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3/webapps/ROOT
+18-Feb-2016 09:45:56.060 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Feb-2016 09:45:56.065 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/agenteo/code/java/tutorial/chapter2/example2/apache-tomcat-9.0.0.M3/webapps/ROOT has finished in 45 ms
+18-Feb-2016 09:45:56.069 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+18-Feb-2016 09:45:56.077 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+18-Feb-2016 09:45:56.078 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 923 ms
+18-Feb-2016 11:09:09.909 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Feb-2016 11:09:09.921 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Feb-2016 11:09:09.997 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+18-Feb-2016 11:09:10.052 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+18-Feb-2016 11:09:10.144 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Feb-2016 11:09:10.150 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+18-Feb-2016 11:09:10.151 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Feb-2016 11:09:10.158 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

@@ -238,3 +238,11 @@
 	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
 	at java.lang.Thread.run(Thread.java:745)
 
+18-Feb-2016 09:44:06.227 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Feb-2016 09:44:06.231 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Feb-2016 09:44:06.294 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+18-Feb-2016 09:44:06.349 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+18-Feb-2016 09:44:06.359 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Feb-2016 09:44:06.363 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+18-Feb-2016 09:44:06.364 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Feb-2016 09:44:06.366 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
