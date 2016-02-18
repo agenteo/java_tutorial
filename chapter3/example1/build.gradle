@@ -1,0 +1,42 @@
+repositories {
+    mavenCentral()
+}
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile "joda-time:joda-time:2.2"
+}
+
+jar {
+    baseName = 'gs-gradle'
+    version =  '0.1.0'
+    manifest {
+        attributes(
+                'Main-Class': 'hello.HelloWorld'
+        )
+    }
+}
+
+//create a single Jar with all dependencies
+task fatJar(type: Jar) {
+    manifest {
+        attributes 'Implementation-Title': 'Gradle Jar File Example',
+                'Implementation-Version': '1.0',
+                'Main-Class': 'hello.HelloWorld'
+    }
+    baseName = 'gs-gradle-all'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.3'
+}
+
+// gradle run that shouldn't be used unless you're 100% that internally it's running the app like
+// production will
+apply plugin: 'application'
+mainClassName = 'hello.HelloWorld'
