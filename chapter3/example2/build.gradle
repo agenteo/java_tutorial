@@ -1,0 +1,27 @@
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.eclipse.jetty:jetty-server:9.3.7.v20160115'
+    compile 'org.eclipse.jetty:jetty-servlet:9.3.7.v20160115'
+    compile 'org.apache.tomcat:tomcat-catalina:9.0.0.M3'
+    compile 'org.apache.tomcat:tomcat-util:9.0.0.M3'
+    compile 'org.apache.tomcat.embed:tomcat-embed-core:9.0.0.M3'
+}
+
+//create a single Jar with all dependencies
+task fatJar(type: Jar) {
+    manifest {
+        attributes 'Implementation-Title': 'Gradle Jar File Example',
+                'Implementation-Version': '1.0',
+                'Main-Class': 'myapp.Main'
+    }
+    baseName = 'tutorial-embedded-webserver'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
