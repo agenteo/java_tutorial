@@ -6,6 +6,13 @@ repositories {
     mavenCentral()
 }
 
+test {
+    testLogging{
+        exceptionFormat = 'full'
+    }
+
+}
+
 dependencies {
     testCompile 'junit:junit:4.12'
 }

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AnotherTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2016-02-19T21:42:23" hostname="dyn-11-241.boulder.pivotallabs.com" time="0.005">
+<testsuite name="AnotherTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2016-02-23T17:38:52" hostname="dyn-11-241.boulder.pivotallabs.com" time="0.008">
   <properties/>
-  <testcase name="somethingDoesWork" classname="AnotherTest" time="0.001"/>
-  <testcase name="evaluatesExpression" classname="AnotherTest" time="0.003">
-    <failure message="java.lang.AssertionError: expected:&lt;16&gt; but was:&lt;116&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;16&gt; but was:&lt;116&gt;
+  <testcase name="somethingDoesWork" classname="AnotherTest" time="0.002"/>
+  <testcase name="evaluatesExpression" classname="AnotherTest" time="0.005">
+    <failure message="java.lang.AssertionError: expected:&lt;16&gt; but was:&lt;126&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;16&gt; but was:&lt;126&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
