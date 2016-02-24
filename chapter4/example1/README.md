@@ -12,6 +12,5 @@ test {
     testLogging{
         exceptionFormat = 'full'
     }
-
 }
 ```
